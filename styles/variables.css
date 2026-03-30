@@ -1,4 +1,15 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --page-bg-image: url(../images/cover-image-dark.png);
+  --page-bg-color: #000028;
+  --decor-color: #ff0070;
+  --decor-color-hover: #ff007066;
+  --hero-title-color: #db00ff;
+  --accent-bg-color: #ff0070;
+  --accent-text-color: #000028;
+  --body-text-color: #f1b2ce;
+  --focus-outline-color: #f1b2ce;
+  --title-shadow-color: #ff0070;
+  --recording-display: flex;
+  --hero-title-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --hero-title-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+}
